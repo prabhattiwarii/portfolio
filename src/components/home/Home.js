@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import img from "../../assets/profile.jpg"
+import img from "../../assets/pt-profile.jpg"
+import resumeFile from "../../assets/prabhat-resume.word.docx";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
                 I'm a passionate web developer with expertise in creating beautiful and functional websites. 
                 Let's collaborate and bring your ideas to life!
             </div>
-            <button className="btn animate__animated animate__fadeInUp">Contact Me</button>
+            <a href={resumeFile} download>
+                <button className="btn animate__animated animate__fadeInUp">Resume</button>
+            </a>
         </div>
         <div className="image-wrap animate__animated animate__fadeInRight">
             <img src={img} alt="Prabhat Tiwari" />

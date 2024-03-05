@@ -1,0 +1,116 @@
+.contact-wrapper{
+    margin:80px auto;
+    max-width: 90%;
+     padding:20px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact-left, .contact-right {
+    flex-basis: 48%;
+    color: #fff;
+}
+.heading{
+    text-align:center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.contact-left h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-left h3 img {
+    width: 35px;
+    margin-left: 10px;
+    animation: fadeInLeft 1s ease forwards;
+}
+
+.contact-left ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    animation: fadeInLeft 1s ease forwards;
+}
+
+.contact-left ul li img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contact-right form input, 
+.contact-right form textarea {
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    animation: fadeInRight 1s ease forwards;
+}
+
+.contact-right .msg {
+    position: absolute;
+    bottom: -30px;
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:767px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact-wrapper{
+        margin:0px auto;
+        max-width:100%;
+         padding:20px;
+    }
+    .contact .contact-left,
+    .contact .contact-right {
+        padding:0px;
+    }
+}
