@@ -19,9 +19,9 @@ const Footer = () => {
                 </div>
                 <div className='footer-right'>
                     <ul>
-                        <li><a href='#'><img src={github} alt="" /></a></li>
-                        <li><a href='#'><img src={insta} alt="" /></a></li>
-                        <li><a href='#'><img src={linkdin} alt="" /></a></li>
+                        <li><a href='https://github.com/prabhattiwarii'><img src={github} alt="" /></a></li>
+                        <li><a href='https://instagram.com/anu_t__'><img src={insta} alt="" /></a></li>
+                        <li><a href='https://www.linkedin.com/in/prabhattiwarii?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '><img src={linkdin} alt="" /></a></li>
                     </ul>
                 </div>
             </div>
