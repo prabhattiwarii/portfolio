@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import img from "../../assets/pt-profile.jpg"
-import resumeFile from "../../assets/prabhat-resume.word.docx";
+import resumeFile from "../../assets/Prabhat-Tiwari.pdf";
 
 const Home = () => {
   return (
