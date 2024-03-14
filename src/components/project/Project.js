@@ -45,10 +45,10 @@ const Project = () => {
         },
         {
             id: 6,
-            img: "./travel.png",
-            title: "Travel World",
-            desc: "Travelworld is a comprehensive travel website where you can choose your destination and explore various places. We provide the best guidance and tour services to ensure you have an unforgettable experience. Whether you're planning a solo adventure, family vacation, or romantic getaway, Travelworld has everything you need to plan your trip with ease.",
-            link:"https://tourapp.pages.dev/home",
+            img: "./gunoxwebsolutions-logo.56e06cff47fd7da27076d4bec2c9135e.svg",
+            title: "UI-UX Design",
+            desc: "IT Companey offering a range of services tailored to meet your needs. Explore our website to learn more about our company, career opportunities, services, and how to get in touch with us. From our home page to our blog section, we strive to provide you with valuable information and insights. Join us on our journey.",
+            link:"https://gunox-technology.vercel.app/",
             gitlink:"https://github.com/prabhattiwarii/TOUR"
         }
     ];
@@ -69,7 +69,7 @@ const Project = () => {
                         <p>{project.desc}</p>
                         <div className="cta-buttons">
                             <a href={project.link} className="live-preview-btn">Live Preview</a>
-                            <a href={project.gitlink} className="view-code-btn">View Code</a>
+                            {/* <a href={project.gitlink} className="view-code-btn">View Code</a> */}
                         </div>
                     </div>
                 ))}
