@@ -8,8 +8,16 @@ const Project = () => {
             img:"./cj-tech.png",
             title: "Coding Job Technology",
             desc: "Coding Job Tech is a IT Company.Coding Job Tech is a leading technology firm that connects businesses with top-tier freelance talent from around the world. Their freelancing platform enables clients to hire skilled professionals for a wide range of projects, including web development, mobile app development, graphic design, digital marketing, and more.",
-            link:"https://hiring-web.vercel.app/",
+            link:"https://cjtech.in/",
             gitlink:"https://github.com/prabhattiwarii/hiring-web"
+        },
+        {
+            id: 1,
+            img:"./cj-tech.png",
+            title: "Coding Job Technology",
+            desc: "Next Version Updated",
+            link:"https://hiring-web-nextjs.vercel.app/",
+            gitlink:"https://github.com/prabhattiwarii/hiring-web-next-upgrade"
         },
         {
             id: 2,
